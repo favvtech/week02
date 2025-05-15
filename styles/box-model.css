@@ -1,0 +1,35 @@
+.callout {
+	max-width: 32rem;
+    margin: 10px;
+    padding: 35px;
+    background: linear-gradient(to bottom right, rgb(114, 194, 114), rgb(162, 209, 162));
+    color: rgb(54, 53, 53);
+}
+
+.callout img {
+	float: right;
+    margin: 5px;
+    background-color: aliceblue;
+    width: 8rem;
+    height: 130px;
+    border: 3px solid #c0ccd6;
+    outline: 2px solid black;
+}
+
+blockquote {
+	margin: 5px;
+}
+
+cite {
+    display: flex;
+    display: block;
+	/* float: ; */
+    border-top: 1px dotted black;
+    padding: 8px 0 0 0;
+    text-align: end;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
